@@ -162,7 +162,7 @@ CONTAINER ID   IMAGE              COMMAND                  CREATED          STAT
 c6bdd4a55d36   mysql:debian       "docker-entrypoint.s…"   11 minutes ago   Up 11 minutes   3306/tcp, 33060/tcp                 mysql-container
 ```
 
-- Details regarding official build WordPress image and the environment variables defined in the command for container creation can be found by visiting this [docker hub](https://hub.docker.com/_/wordpress) link.
+- Details regarding official build of the WordPress image and the environment variables defined in the command for container creation can be found by visiting this [docker hub](https://hub.docker.com/_/wordpress) link.
 
 # WordPress Installation:
 
