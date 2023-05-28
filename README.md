@@ -1,6 +1,6 @@
 # Description
 
-This project is a demontration explaining step by step procedure on how we can intall WordPress on docker containers.
+This project is a demontration explaining step by step procedure on how to intall WordPress application with help of docker tool.
 
 ## Architeture Model
 
