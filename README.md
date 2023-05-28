@@ -196,4 +196,4 @@ Once the details are entered, click on the **Install WordPress** button:
 
 ![WP7](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/3b3a676d-887f-4f87-812b-8a430e8f0581)
 
-With few steps we have successfully installed a WordPress application.
+With this steps followed, the WordPress application have been successfully installed.
