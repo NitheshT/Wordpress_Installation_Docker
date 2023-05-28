@@ -4,7 +4,7 @@ This project is a demontration explaining step by step procedure on how to lauch
 
 ## Architeture Model
 
-![Model](https://github.com/NitheshT/Wordpress_Installation_Docket/assets/122042254/9c92a8cf-2534-421c-8514-feb1577872d1)
+![Model](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/1a2b2d86-28f3-4e19-ba11-ed4eae9d91b1)
 
 ## Step by step procedures:
 
