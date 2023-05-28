@@ -87,6 +87,14 @@ mysql:debian
 c6bdd4a55d36b8f8ed01c1b6d1fe977aaf406740bfdb0fa8bc1a26e3b128ee18
 ```
 
+Listing the container:
+
+```
+[ec2-user@ip-172-31-7-241 ~]$ docker container ls -a
+CONTAINER ID   IMAGE              COMMAND                  CREATED          STATUS          PORTS                               NAMES
+c6bdd4a55d36   mysql:debian       "docker-entrypoint.s…"   11 minutes ago   Up 11 minutes   3306/tcp, 33060/tcp                 mysql-container
+```
+
 Details regarding MySQL image and variables defined in the command for container creation can be found by visiting [docker hub](https://hub.docker.com/_/mysql)
 
 5. Pulling WordPress image:
@@ -132,4 +140,56 @@ mysql        debian    e11a2cc22198   5 days ago   602MB
 6. WordPress container creation:
 
 ```
+[ec2-user@ip-172-31-7-241 ~]$ docker container run \
+-d \
+--name wordpress \
+--network wp-net \
+-p 80:80 \
+-e WORDPRESS_DB_HOST="mysql-container" \
+-e WORDPRESS_DB_USER="wpuser" \
+-e WORDPRESS_DB_PASSWORD="wpuser123" \
+-e WORDPRESS_DB_NAME="wordpress" \
+wordpress:latest
+087cb1898f799a8a39fc9932562f7bc9878fa231d78cdfb3788c0584f7e2dde6
 ```
+
+Listing all containers currently running:
+
+```
+[ec2-user@ip-172-31-7-241 ~]$ docker container ls -a
+CONTAINER ID   IMAGE              COMMAND                  CREATED          STATUS          PORTS                               NAMES
+087cb1898f79   wordpress:latest   "docker-entrypoint.s…"   52 seconds ago   Up 51 seconds   0.0.0.0:80->80/tcp, :::80->80/tcp   wordpress
+c6bdd4a55d36   mysql:debian       "docker-entrypoint.s…"   11 minutes ago   Up 11 minutes   3306/tcp, 33060/tcp                 mysql-container
+```
+
+# WordPress Installation:
+
+1. The URL for accessing WordPress dashboard is http://ec2-52-66-239-105.ap-south-1.compute.amazonaws.com:80
+
+The initial page of WordPress installation will be visible when URL mentioned above is accessed
+
+2. Choose the language preferable and click on the "Conitinue" button:
+
+![WP1](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/aec0c81f-129b-48a9-b6ca-e346c532cff9)
+
+3. In the next page, we give the details such as Title name, Username, Password (strong password is alaways recommended) and the Email ID.
+
+Once the details are enter, click on "Install WordPress" button:
+
+![WP2](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/165dba6d-08ff-4d78-9b64-a13f88291a08)
+
+4. Next page shows a success message based on the installation performed.
+
+![WP3](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/bc139534-7a98-4830-8e2c-dd4d3dcdb8e9)
+
+5. Login to the WordPress dashboard with the credentials available:
+
+![WP5](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/74c2e7f4-163d-4a30-a12a-76f9b997e08f)
+
+6. Successfull logged into WordPress Dashboard.
+
+![image](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/edefb2a6-6eb6-42c7-b29a-beee51ca5c11)
+
+7. A good WordPress theme is uploaded and WordPress WordPress site is ready:
+
+![WP7](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/3b3a676d-887f-4f87-812b-8a430e8f0581)
