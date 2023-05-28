@@ -168,7 +168,7 @@ c6bdd4a55d36   mysql:debian       "docker-entrypoint.s…"   11 minutes ago   Up
 
 1. The URL for accessing WordPress dashboard is http://ec2-52-66-239-105.ap-south-1.compute.amazonaws.com:80
 
-The initial page of **WordPress installation** will be visible when URL mentioned above is accessed
+The initial page of **WordPress installation** will be visible when URL mentioned above is accessed.
 
 2. Choose the language preferable and click on the **Conitinue** button:
 
@@ -196,4 +196,4 @@ Once the details are entered, click on the **Install WordPress** button:
 
 ![WP7](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/3b3a676d-887f-4f87-812b-8a430e8f0581)
 
-Withing a few steps we have successfully installed WordPress application.
+With few steps we have successfully installed a WordPress application.
