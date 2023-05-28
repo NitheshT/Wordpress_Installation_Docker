@@ -8,7 +8,7 @@ This project is a demontration explaining step by step procedure on how we can i
 
 ## Step by step proceedures:
 
-1. Configuriing an EC2 instance with user as mentioned below which has docker installed:
+1. Configuriing an EC2 instance with **user data** as mentioned below which has docker installed:
 
 ```
 #!/bin/bash
@@ -95,7 +95,7 @@ CONTAINER ID   IMAGE              COMMAND                  CREATED          STAT
 c6bdd4a55d36   mysql:debian       "docker-entrypoint.s…"   11 minutes ago   Up 11 minutes   3306/tcp, 33060/tcp                 mysql-container
 ```
 
-Details regarding MySQL image and variables defined in the command for container creation can be found by visiting [docker hub](https://hub.docker.com/_/mysql)
+Details regarding MySQL image and the environment variables defined in the command for container creation can be found by visiting [docker hub](https://hub.docker.com/_/mysql)
 
 5. Pulling WordPress image:
 
@@ -162,6 +162,8 @@ CONTAINER ID   IMAGE              COMMAND                  CREATED          STAT
 c6bdd4a55d36   mysql:debian       "docker-entrypoint.s…"   11 minutes ago   Up 11 minutes   3306/tcp, 33060/tcp                 mysql-container
 ```
 
+Details regarding WordPress image and the environment variables defined in the command for container creation can be found by visiting [docker hub](https://hub.docker.com/_/wordpress)
+
 # WordPress Installation:
 
 1. The URL for accessing WordPress dashboard is http://ec2-52-66-239-105.ap-south-1.compute.amazonaws.com:80
@@ -190,6 +192,6 @@ Once the details are enter, click on "Install WordPress" button:
 
 ![image](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/edefb2a6-6eb6-42c7-b29a-beee51ca5c11)
 
-7. A good WordPress theme is uploaded and WordPress WordPress site is ready:
+7. A good WordPress theme is uploaded and WordPress site is ready:
 
 ![WP7](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/3b3a676d-887f-4f87-812b-8a430e8f0581)
