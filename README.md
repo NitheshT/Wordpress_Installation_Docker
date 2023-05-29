@@ -2,7 +2,7 @@
 
 This project is a demontration explaining step by step procedure on how to lauch and intall WordPress application with help of docker container.
 
-## Architeture Model
+## Architecture Model
 
 ![Model](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/1a2b2d86-28f3-4e19-ba11-ed4eae9d91b1)
 
@@ -195,5 +195,7 @@ Once the details are entered, click on the **Install WordPress** button:
 7. A good WordPress theme is uploaded and WordPress site is ready:
 
 ![WP7](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/3b3a676d-887f-4f87-812b-8a430e8f0581)
+
+# Conclusion
 
 With this steps followed, the WordPress application have been successfully installed.
