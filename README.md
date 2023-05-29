@@ -198,4 +198,4 @@ Once the details are entered, click on the **Install WordPress** button:
 
 # Conclusion
 
-With this steps followed, the WordPress application have been successfully installed.
+With these simple steps followed, the WordPress application have been successfully installed and launched.
