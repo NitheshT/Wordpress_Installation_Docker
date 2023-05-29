@@ -174,7 +174,7 @@ The initial page of **WordPress installation** will be visible when URL mentione
 
 ![WP1](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/aec0c81f-129b-48a9-b6ca-e346c532cff9)
 
-3. In the next page, we give the details such as **Title name**, **Username**, **Password** (strong password is alaways recommended) and the **Email ID** that are required.
+3. In the next page, the details such as **Title name**, **Username**, **Password** (a strong password is always recommended) and the **Email ID** are given.
 
 Once the details are entered, click on the **Install WordPress** button:
 
