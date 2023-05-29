@@ -180,7 +180,7 @@ Once the details are entered, click on the **Install WordPress** button:
 
 ![WP2](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/165dba6d-08ff-4d78-9b64-a13f88291a08)
 
-4. Next page shows a **success** message based on the installation performed.
+4. Next page shows a **success** message based on the installation performed, click on **Login** button.
 
 ![WP3](https://github.com/NitheshT/Wordpress_Installation_Docker/assets/122042254/bc139534-7a98-4830-8e2c-dd4d3dcdb8e9)
 
